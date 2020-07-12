@@ -1,0 +1,1915 @@
+Dummy File
+Maybe found a captcha. listings dump:
+['https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-apply-by-and-get-half-off/7157733083.html', 'https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-one-bedroom-with-view-and/7157655555.html', 'https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-luxury-at-its-finest/7157648625.html', 'https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-beautiful-community/7157634635.html', 'https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-ask-how-to-get-september/7157534769.html', 'https://minneapolis.craigslist.org/ram/apa/d/saint-paul-all-the-amenities-you/7157496922.html', 'https://minneapolis.craigslist.org/ram/apa/d/saint-paul-reserve-your-brand-new-home/7157497229.html', 'https://minneapolis.craigslist.org/ram/apa/d/saint-paul-now-leasing-gorgeous-2/7157497091.html']
+
+Craigslist url:
+https://minneapolis.craigslist.org/search/apa?sort=date&availabilityMode=0&bundleDuplicates=1&hasPic=1&maxSqft=1400&max_price=1600&minSqft=600&min_price=1000&no_smoking=1&pets_cat=1&pets_dog=1&postal=55402&postedToday=1&search_distance=4
+
+html dump:
+<!DOCTYPE html>
+<html class="no-js">
+ <head>
+  <title>
+   minneapolis apts/housing for rent  - craigslist
+  </title>
+  <meta content="minneapolis apts/housing for rent  - craigslist" name="description"/>
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+  <link href="https://minneapolis.craigslist.org/search/apa" rel="canonical"/>
+  <link href="https://minneapolis.craigslist.org/search/apa?availabilityMode=0&amp;bundleDuplicates=1&amp;format=rss&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4&amp;sort=date" rel="alternate" title="RSS feed for craigslist | minneapolis apts/housing for rent  - craigslist" type="application/rss+xml"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <link href="//www.craigslist.org/styles/cl.css?v=5826de27c327d61d2169c6a45af814f9" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//www.craigslist.org/styles/search.css?v=bc035cbbc3978b0ec9df93944cdf349b" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//www.craigslist.org/styles/jquery-ui-clcustom.css?v=3b05ddffb7c7f5b62066deff2dda9339" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//www.craigslist.org/styles/leaflet.css?v=d604b055c4c11b9fd29d0c071b394312" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//www.craigslist.org/styles/MarkerCluster.css?v=9bea97021e746649c6837e95dd9723e8" media="all" rel="stylesheet" type="text/css"/>
+  <link href="//www.craigslist.org/styles/tocsmaps.css?v=d8743547c59d5ad31d4d7294c7e2f7f2" media="all" rel="stylesheet" type="text/css"/>
+  <!--[if IE]>
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/tocsmaps-ie.css?v=6bcbe5817e70c9a7f673ff72ba3e56e5">
+<![endif]-->
+  <script type="text/javascript">
+   <!--
+var areaCountry = "US";
+var areaID = "19";
+var areaRegion = "MN";
+var catAbb = "apa";
+var countOfTotalText = "image {count} of {total}";
+var currencySymbol = "&#x0024;";
+var defaultView = "grid";
+var expiredFavIDs = null;
+var imageConfig = {"4":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"1":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"3":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]},"0":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450"]},"2":{"hostname":"https://images.craigslist.org","sizes":["50x50c","300x300","600x450","1200x900"]}};
+var lessInfoText = "less info";
+var maptileBaseUrl = "//map{s}.craigslist.org/t09/{z}/{x}/{y}.png";
+var maxResults = 3000;
+var noImageText = "no image";
+var pID = null;
+var postalLat = "44.9762";
+var postalLon = "-93.2759";
+var purveyorCategories = null;
+var searchDistance = 6437.36;
+var sectionAbb = "hhh";
+var sectionBase = "hhh";
+var showInfoText = "show info";
+var showMapTabs = 1;
+var showingBanished = 0;
+var showingFavorites = 0;
+var starHint = "save this post in your favorites list";
+var subarea = null;
+var zoomToPosting = null;
+-->
+  </script>
+ </head>
+ <body class="search has-map">
+  <script type="text/javascript">
+   <!--
+    function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+    var pagetype, pagemode;
+    (function(){
+        var h = document.documentElement;
+        h.className = h.className.replace('no-js', 'js');
+        var b = document.body;
+        var bodyClassList = b.className.split(/\s+/);;
+        pagetype = bodyClassList[0]; // dangerous assumption
+        var fmt = C('cl_fmt');
+        if ( fmt === 'regular' || fmt === 'mobile' ) {
+            pagemode = fmt;
+        } else if (screen.width <= 480) {
+            pagemode = 'mobile';
+        } else {
+            pagemode = 'regular';
+        }
+        pagemode = pagemode === 'mobile' ? 'mobile' : 'desktop';
+        bodyClassList.push(pagemode);
+        if (C('hidesearch') === '1' && pagemode !== 'mobile') {
+            bodyClassList.push('hide-search');
+        }
+        var width = window.innerWidth || document.documentElement.clientWidth;
+        if (width > 1000) { bodyClassList.push('w1024'); }
+        if (typeof window.sectionBase !== 'undefined') {
+            var mode = (decodeURIComponent(C('cl_tocmode') || '').match(new RegExp(window.sectionBase + ':([^,]+)', 'i')) || {})[1] || window.defaultView;
+            if (mode) {
+                bodyClassList.push(mode);
+            }
+        }
+        b.className = bodyClassList.join(' ');
+    }());
+-->
+  </script>
+  <section class="page-container" id="page-top">
+   <div class="bglogo">
+   </div>
+   <div class="tryapp">
+    try the craigslist app »
+    <a class="appstorebtn" href="https://play.google.com/store/apps/details?id=org.craigslist.CraigslistMobile">
+     Android
+    </a>
+    <a class="appstorebtn" href="https://apps.apple.com/us/app/craigslist/id1336642410">
+     iOS
+    </a>
+   </div>
+   <header class="global-header wide">
+    <a class="header-logo" href="/d/minneapolis-mn-55402/?postal=55402&amp;search_distance=4" name="logoLink">
+     CL
+    </a>
+    <nav class="breadcrumbs-container">
+     <form action="/search/apa" class="breadcrumbs-form" data-action="/search/###/apa" id="breadcrumbform" method="get">
+      <input name="maxSqft" type="hidden" value="1400"/>
+      <input name="no_smoking" type="hidden" value="1"/>
+      <input name="postedToday" type="hidden" value="1"/>
+      <input name="pets_cat" type="hidden" value="1"/>
+      <input name="postal" type="hidden" value="55402"/>
+      <input name="hasPic" type="hidden" value="1"/>
+      <input name="min_price" type="hidden" value="1000"/>
+      <input name="search_distance" type="hidden" value="4"/>
+      <input name="max_price" type="hidden" value="1600"/>
+      <input name="sort" type="hidden" value="date"/>
+      <input name="bundleDuplicates" type="hidden" value="1"/>
+      <input name="minSqft" type="hidden" value="600"/>
+      <input name="pets_dog" type="hidden" value="1"/>
+      <ul class="breadcrumbs hide-subareas">
+       <li class="crumb area">
+        <span class="no-js">
+         <a href="/">
+          minneapolis
+         </a>
+        </span>
+        <select class="js-only" id="areaAbb" name="areaAbb">
+         <option value="minneapolis">
+          55402 + 4 miles
+         </option>
+         <option value="minneapolis">
+          minneapolis
+         </option>
+         <option value="ames">
+          ames, IA
+         </option>
+         <option value="bemidji">
+          bemidji
+         </option>
+         <option value="brainerd">
+          brainerd
+         </option>
+         <option value="cedarrapids">
+          cedar rapids
+         </option>
+         <option value="dubuque">
+          dubuque
+         </option>
+         <option value="duluth">
+          duluth
+         </option>
+         <option value="eauclaire">
+          eau claire
+         </option>
+         <option value="fargo">
+          fargo
+         </option>
+         <option value="fortdodge">
+          fort dodge
+         </option>
+         <option value="lacrosse">
+          la crosse
+         </option>
+         <option value="madison">
+          madison
+         </option>
+         <option value="mankato">
+          mankato
+         </option>
+         <option value="masoncity">
+          mason city
+         </option>
+         <option value="nesd">
+          northeast SD
+         </option>
+         <option value="northernwi">
+          northern WI
+         </option>
+         <option value="rmn">
+          rochester, MN
+         </option>
+         <option value="siouxcity">
+          sioux city
+         </option>
+         <option value="siouxfalls">
+          sioux falls
+         </option>
+         <option value="marshall">
+          southwest MN
+         </option>
+         <option value="stcloud">
+          st cloud
+         </option>
+         <option value="waterloo">
+          waterloo
+         </option>
+         <option value="wausau">
+          wausau
+         </option>
+        </select>
+        <span class="breadcrumb-arrow">
+         &gt;
+        </span>
+       </li>
+       <li class="crumb subarea">
+        <select id="subArea" name="subArea">
+         <option selected="" value="">
+          all minneapolis
+         </option>
+         <option value="ank">
+          anok/chis/isa
+         </option>
+         <option value="csw">
+          carv/sher/wri
+         </option>
+         <option value="dak">
+          dakota/scott
+         </option>
+         <option value="hnp">
+          hennepin co
+         </option>
+         <option value="ram">
+          ramsey co
+         </option>
+         <option value="wsh">
+          washington/WI
+         </option>
+        </select>
+        <span class="breadcrumb-arrow">
+         &gt;
+        </span>
+       </li>
+       <li class="crumb section">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+          community
+         </option>
+         <option value="eee">
+          events
+         </option>
+         <option value="sss">
+          for sale
+         </option>
+         <option value="ggg">
+          gigs
+         </option>
+         <option selected="" value="hhh">
+          housing
+         </option>
+         <option value="jjj">
+          jobs
+         </option>
+         <option value="rrr">
+          resumes
+         </option>
+         <option value="bbb">
+          services
+         </option>
+        </select>
+        <span class="breadcrumb-arrow">
+         &gt;
+        </span>
+       </li>
+       <li class="crumb category">
+        <select class="js-only" id="subcatAbb">
+         <option value="hhh">
+          all
+         </option>
+         <option selected="" value="apa">
+          apts/housing for rent
+         </option>
+         <option value="swp">
+          housing swap
+         </option>
+         <option value="off">
+          office &amp; commercial
+         </option>
+         <option value="prk">
+          parking &amp; storage
+         </option>
+         <option value="reb">
+          real estate - by broker
+         </option>
+         <option value="reo">
+          real estate - by owner
+         </option>
+         <option value="roo">
+          rooms &amp; shares
+         </option>
+         <option value="sub">
+          sublets &amp; temporary
+         </option>
+         <option value="vac">
+          vacation rentals
+         </option>
+         <option value="hou">
+          wanted: apts
+         </option>
+         <option value="rew">
+          wanted: real estate
+         </option>
+         <option value="sha">
+          wanted: room/share
+         </option>
+         <option value="sbw">
+          wanted: sublet/temp
+         </option>
+        </select>
+        <span class="no-js">
+         apts/housing for rent
+        </span>
+        <span class="breadcrumb-arrow">
+         &gt;
+        </span>
+       </li>
+       <li class="crumb no-js">
+        <input type="submit" value="go"/>
+       </li>
+      </ul>
+     </form>
+    </nav>
+    <div class="userlinks">
+     <ul class="user-actions">
+      <li class="user post">
+       <a href="https://post.craigslist.org/c/min">
+        post
+       </a>
+      </li>
+      <li class="user account">
+       <a href="https://accounts.craigslist.org/login/home">
+        account
+       </a>
+      </li>
+     </ul>
+     <ul class="user-favs-discards">
+      <li class="user">
+       <div class="favorites">
+        <a class="favlink" href="#">
+         <span aria-hidden="true" class="icon icon-star fav">
+         </span>
+         <span class="fav-number">
+          0
+         </span>
+         <span class="fav-label">
+          favorites
+         </span>
+        </a>
+       </div>
+      </li>
+      <li class="user discards">
+       <form action="/favorites" class="unfavform js-only" method="POST">
+        <div class="to-banish-page">
+         <input class="lastLink" name="lastLink" type="hidden" value="//minneapolis.craigslist.org/search/apa?availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4&amp;sort=date"/>
+         <input class="lastTitle" name="lastTitle" type="hidden" value=""/>
+         <input class="unfaves" name="fl" type="hidden"/>
+         <input name="uf" type="hidden" value="1"/>
+         <a class="to-banish-page-link" href="#">
+          <span aria-hidden="true" class="icon icon-trash red">
+          </span>
+          <span class="banished_count">
+           0
+          </span>
+          <span class="discards-label">
+           hidden
+          </span>
+         </a>
+        </div>
+       </form>
+      </li>
+     </ul>
+    </div>
+   </header>
+   <header class="global-header narrow">
+    <a class="header-logo" href="/d/minneapolis-mn-55402/?postal=55402&amp;search_distance=4">
+     CL
+    </a>
+    <nav class="breadcrumbs-container">
+     <ul class="breadcrumbs">
+      minneapolis            &gt;
+
+apts/housing for rent
+     </ul>
+    </nav>
+    <span class="linklike show-wide-header">
+     ...
+    </span>
+   </header>
+   <form action="/search/apa" class="search-form" id="searchform">
+    <div class="querybox">
+     <div class="form-tab js-only">
+      <span class="search-open" title="hide search">
+       «
+      </span>
+      <span class="search-closed" title="show search">
+       »
+      </span>
+     </div>
+     <input autocapitalize="off" autocomplete="off" autocorrect="off" class="flatinput ui-autocomplete-input" data-autocomplete="search" id="query" name="query" placeholder="search apts/housing for rent" type="text" value=""/>
+     <button class="searchbtn" type="submit">
+      <span aria-hidden="true" class="icon icon-search">
+      </span>
+      <span class="screen-reader-text">
+       press to search craigslist
+      </span>
+     </button>
+     <div class="savealert">
+      <a class="saveme" data-action="save" href="https://accounts.craigslist.org/savesearch/save?URL=https%3A%2F%2Fminneapolis%2Ecraigslist%2Eorg%2Fsearch%2Fapa%3FavailabilityMode%3D0%26bundleDuplicates%3D1%26hasPic%3D1%26maxSqft%3D1400%26max%5Fprice%3D1600%26minSqft%3D600%26min%5Fprice%3D1000%26no%5Fsmoking%3D1%26pets%5Fcat%3D1%26pets%5Fdog%3D1%26postal%3D55402%26postedToday%3D1%26search%5Fdistance%3D4%26sort%3Ddate" title="save this search">
+       save search
+      </a>
+     </div>
+    </div>
+    <div class="search-options-container">
+     <h2 class="search-options-header linklike">
+      <div aria-hidden="true" class="icon icon-toggle-gear">
+      </div>
+      options
+      <span class="options-close">
+       close
+      </span>
+     </h2>
+     <input id="excats" name="excats" type="hidden"/>
+     <input name="sort" type="hidden" value="date"/>
+     <div class="search-options">
+      <div class="searchgroup categories">
+       <div class="cattitle">
+        <a class="reset" href="/search/apa" title="clear all search parameters">
+         apts/housing for rent
+        </a>
+       </div>
+      </div>
+      <input name="userid" type="hidden" value=""/>
+      <div class="searchgroup">
+       <ul>
+        <li>
+         <label class="srchType">
+          <input class="" name="srchType" type="checkbox" value="T"/>
+          search titles only
+         </label>
+        </li>
+        <li>
+         <label class="hasPic">
+          <input checked="" class="autosubmit" name="hasPic" type="checkbox" value="1"/>
+          has image
+         </label>
+        </li>
+        <li>
+         <label class="postedToday">
+          <input checked="" class="autosubmit" name="postedToday" type="checkbox" value="1"/>
+          posted today
+         </label>
+        </li>
+        <li>
+         <label class="bundleDuplicates">
+          <input checked="" class="autosubmit" name="bundleDuplicates" type="checkbox" value="1"/>
+          bundle duplicates
+         </label>
+        </li>
+       </ul>
+      </div>
+      <div class="searchgroup">
+       <span class="searchfieldlabel">
+        miles from zip
+       </span>
+       <input class="flatinput searchInput search_distance" inputmode="numeric" maxlength="5" name="search_distance" placeholder="miles" size="5" value="4"/>
+       <input class="flatinput searchInput postal" name="postal" placeholder="from zip" size="7" type="text" value="55402"/>
+       <span class="icon icon-locate">
+       </span>
+      </div>
+      <div class="searchgroup minmax price">
+       <span class="searchfieldlabel">
+        price
+       </span>
+       <input class="flatinput min" name="min_price" placeholder="min" title="whole number, no letters or symbols" type="tel" value="1000"/>
+       <input class="flatinput max" name="max_price" placeholder="max" title="whole number, no letters or symbols" type="tel" value="1600"/>
+      </div>
+      <div class="searchgroup bed-bath-selects">
+       <span class="searchfieldlabel">
+        bedrooms
+       </span>
+       <select class="autosubmit" name="min_bedrooms">
+        <option value="">
+         min
+        </option>
+        <option value="1">
+         1
+        </option>
+        <option value="2">
+         2
+        </option>
+        <option value="3">
+         3
+        </option>
+        <option value="4">
+         4
+        </option>
+        <option value="5">
+         5
+        </option>
+        <option value="6">
+         6
+        </option>
+        <option value="7">
+         7
+        </option>
+        <option value="8">
+         8
+        </option>
+       </select>
+       -
+       <select class="autosubmit" name="max_bedrooms">
+        <option value="">
+         max
+        </option>
+        <option value="1">
+         1
+        </option>
+        <option value="2">
+         2
+        </option>
+        <option value="3">
+         3
+        </option>
+        <option value="4">
+         4
+        </option>
+        <option value="5">
+         5
+        </option>
+        <option value="6">
+         6
+        </option>
+        <option value="7">
+         7
+        </option>
+        <option value="8">
+         8
+        </option>
+       </select>
+      </div>
+      <div class="searchgroup bed-bath-selects">
+       <span class="searchfieldlabel">
+        bathrooms
+       </span>
+       <select class="autosubmit" name="min_bathrooms">
+        <option value="">
+         min
+        </option>
+        <option value="1">
+         1
+        </option>
+        <option value="2">
+         2
+        </option>
+        <option value="3">
+         3
+        </option>
+        <option value="4">
+         4
+        </option>
+        <option value="5">
+         5
+        </option>
+        <option value="6">
+         6
+        </option>
+        <option value="7">
+         7
+        </option>
+        <option value="8">
+         8
+        </option>
+       </select>
+       -
+       <select class="autosubmit" name="max_bathrooms">
+        <option value="">
+         max
+        </option>
+        <option value="1">
+         1
+        </option>
+        <option value="2">
+         2
+        </option>
+        <option value="3">
+         3
+        </option>
+        <option value="4">
+         4
+        </option>
+        <option value="5">
+         5
+        </option>
+        <option value="6">
+         6
+        </option>
+        <option value="7">
+         7
+        </option>
+        <option value="8">
+         8
+        </option>
+       </select>
+      </div>
+      <div class="searchgroup minmax">
+       <span class="searchfieldlabel">
+        ft
+        <sup>
+         2
+        </sup>
+       </span>
+       <input class="flatinput min" name="minSqft" placeholder="min" title="whole number, no letters or symbols" type="tel" value="600"/>
+       <input class="flatinput max" name="maxSqft" placeholder="max" title="whole number, no letters or symbols" type="tel" value="1400"/>
+      </div>
+      <div class="searchgroup">
+       <span class="searchfieldlabel">
+        availability
+       </span>
+       <select class="autosubmit" name="availabilityMode">
+        <option selected="selected" value="0">
+         all dates
+        </option>
+        <option value="1">
+         within 30 days
+        </option>
+        <option value="2">
+         beyond 30 days
+        </option>
+       </select>
+      </div>
+      <div class="searchgroup">
+       <label class="pets_cat">
+        <input checked="checked" class="autosubmit" name="pets_cat" type="checkbox" value="1"/>
+        cats ok
+       </label>
+       <br/>
+       <label class="pets_dog">
+        <input checked="checked" class="autosubmit" name="pets_dog" type="checkbox" value="1"/>
+        dogs ok
+       </label>
+       <br/>
+       <label class="is_furnished">
+        <input class="autosubmit" name="is_furnished" type="checkbox" value="1"/>
+        furnished
+       </label>
+       <br/>
+       <label class="no_smoking">
+        <input checked="checked" class="autosubmit" name="no_smoking" type="checkbox" value="1"/>
+        no smoking
+       </label>
+       <br/>
+       <label class="wheelchaccess">
+        <input class="autosubmit" name="wheelchaccess" type="checkbox" value="1"/>
+        wheelchair access
+       </label>
+       <br/>
+       <label class="ev_charging">
+        <input class="autosubmit" name="ev_charging" type="checkbox" value="1"/>
+        EV charging
+       </label>
+       <br/>
+       <label class="application_fee">
+        <input class="autosubmit" name="application_fee" type="checkbox" value="1"/>
+        no application fee
+       </label>
+       <br/>
+       <label class="broker_fee">
+        <input class="autosubmit" name="broker_fee" type="checkbox" value="1"/>
+        no broker fee
+       </label>
+       <br/>
+      </div>
+      <div class="searchgroup">
+       <div class="search-attribute hide-list" data-attr="housing_type">
+        <div class="title linklike">
+         <span class="plus">
+          ▸
+         </span>
+         <span class="minus">
+          ▾
+         </span>
+         housing type
+        </div>
+        <ul class="list">
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_1" name="housing_type" type="checkbox" value="1"/>
+           apartment
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_2" name="housing_type" type="checkbox" value="2"/>
+           condo
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_3" name="housing_type" type="checkbox" value="3"/>
+           cottage/cabin
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_4" name="housing_type" type="checkbox" value="4"/>
+           duplex
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_5" name="housing_type" type="checkbox" value="5"/>
+           flat
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_6" name="housing_type" type="checkbox" value="6"/>
+           house
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_7" name="housing_type" type="checkbox" value="7"/>
+           in-law
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_8" name="housing_type" type="checkbox" value="8"/>
+           loft
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_9" name="housing_type" type="checkbox" value="9"/>
+           townhouse
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_10" name="housing_type" type="checkbox" value="10"/>
+           manufactured
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_11" name="housing_type" type="checkbox" value="11"/>
+           assisted living
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="housing_type_12" name="housing_type" type="checkbox" value="12"/>
+           land
+          </label>
+         </li>
+         <li class="selectall js-only">
+          <span class="all">
+           select all
+          </span>
+          <span class="none">
+           deselect all
+          </span>
+         </li>
+        </ul>
+       </div>
+       <div class="search-attribute hide-list" data-attr="laundry">
+        <div class="title linklike">
+         <span class="plus">
+          ▸
+         </span>
+         <span class="minus">
+          ▾
+         </span>
+         laundry
+        </div>
+        <ul class="list">
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="laundry_1" name="laundry" type="checkbox" value="1"/>
+           w/d in unit
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="laundry_4" name="laundry" type="checkbox" value="4"/>
+           w/d hookups
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="laundry_2" name="laundry" type="checkbox" value="2"/>
+           laundry in bldg
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="laundry_3" name="laundry" type="checkbox" value="3"/>
+           laundry on site
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="laundry_5" name="laundry" type="checkbox" value="5"/>
+           no laundry on site
+          </label>
+         </li>
+        </ul>
+       </div>
+       <div class="search-attribute hide-list" data-attr="parking">
+        <div class="title linklike">
+         <span class="plus">
+          ▸
+         </span>
+         <span class="minus">
+          ▾
+         </span>
+         parking
+        </div>
+        <ul class="list">
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="parking_1" name="parking" type="checkbox" value="1"/>
+           carport
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="parking_2" name="parking" type="checkbox" value="2"/>
+           attached garage
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="parking_3" name="parking" type="checkbox" value="3"/>
+           detached garage
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="parking_4" name="parking" type="checkbox" value="4"/>
+           off-street parking
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="parking_5" name="parking" type="checkbox" value="5"/>
+           street parking
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="parking_6" name="parking" type="checkbox" value="6"/>
+           valet parking
+          </label>
+         </li>
+         <li class="checkbox">
+          <label>
+           <input class="multi_checkbox" id="parking_7" name="parking" type="checkbox" value="7"/>
+           no parking
+          </label>
+         </li>
+         <li class="selectall js-only">
+          <span class="all">
+           select all
+          </span>
+          <span class="none">
+           deselect all
+          </span>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div class="searchgroup">
+       <div class="searchfieldlabel">
+        open house date
+       </div>
+       <select class="autosubmit" id="sale_date" name="sale_date">
+        <option>
+         all dates
+        </option>
+        <option value="2020-07-12">
+         jul 12 - today
+        </option>
+        <option value="2020-07-13">
+         jul 13 - tomorrow
+        </option>
+        <option value="2020-07-14">
+         jul 14 - tuesday
+        </option>
+        <option value="2020-07-15">
+         jul 15 - wednesday
+        </option>
+        <option value="2020-07-16">
+         jul 16 - thursday
+        </option>
+        <option value="2020-07-17">
+         jul 17 - friday
+        </option>
+        <option value="2020-07-18">
+         jul 18 - saturday
+        </option>
+        <option value="2020-07-19">
+         jul 19 - sunday
+        </option>
+        <option value="2020-07-20">
+         jul 20 - monday
+        </option>
+        <option value="2020-07-21">
+         jul 21 - tuesday
+        </option>
+        <option value="2020-07-22">
+         jul 22 - wednesday
+        </option>
+        <option value="2020-07-23">
+         jul 23 - thursday
+        </option>
+        <option value="2020-07-24">
+         jul 24 - friday
+        </option>
+        <option value="2020-07-25">
+         jul 25 - saturday
+        </option>
+        <option value="2020-07-26">
+         jul 26 - sunday
+        </option>
+        <option value="2020-07-27">
+         jul 27 - monday
+        </option>
+        <option value="2020-07-28">
+         jul 28 - tuesday
+        </option>
+        <option value="2020-07-29">
+         jul 29 - wednesday
+        </option>
+        <option value="2020-07-30">
+         jul 30 - thursday
+        </option>
+        <option value="2020-07-31">
+         jul 31 - friday
+        </option>
+        <option value="2020-08-01">
+         aug 1 - saturday
+        </option>
+        <option value="2020-08-02">
+         aug 2 - sunday
+        </option>
+        <option value="2020-08-03">
+         aug 3 - monday
+        </option>
+        <option value="2020-08-04">
+         aug 4 - tuesday
+        </option>
+        <option value="2020-08-05">
+         aug 5 - wednesday
+        </option>
+        <option value="2020-08-06">
+         aug 6 - thursday
+        </option>
+        <option value="2020-08-07">
+         aug 7 - friday
+        </option>
+        <option value="2020-08-08">
+         aug 8 - saturday
+        </option>
+       </select>
+      </div>
+      <div class="searchgroup resetsearch">
+       <a class="reset linklike" href="/search/apa" title="clear all search parameters">
+        reset
+       </a>
+       <button class="searchlink linklike" type="submit">
+        update search
+       </button>
+      </div>
+      <aside class="tsb">
+       <ul>
+        <li>
+         <a href="https://www.craigslist.org/about/FHA">
+          fair housing
+         </a>
+        </li>
+        <li>
+         <a href="https://www.craigslist.org/about/scams">
+          avoiding scams
+         </a>
+        </li>
+       </ul>
+      </aside>
+     </div>
+    </div>
+    <div class="search-legend">
+     <div class="search-view js-only">
+      <div aria-expanded="false" aria-label="view options" class="dropdown dropdown-icons dropdown-arrows dropdown-view" role="toolbar">
+       <ul class="dropdown-list">
+        <li class="dropdown-item mode sel">
+         <button data-selection="list" id="listview" title="show results in a list">
+          <span class="view-list icon">
+          </span>
+          list
+         </button>
+         <span class="toggle-arrow">
+         </span>
+        </li>
+        <li class="dropdown-item mode">
+         <button data-selection="pic" id="picview" title="show results in a list with thumbnail pictures">
+          <span class="view-thumb icon">
+          </span>
+          thumb
+         </button>
+         <span class="toggle-arrow">
+         </span>
+        </li>
+        <li class="dropdown-item mode">
+         <button data-selection="grid" id="gridview" title="show results side-by-side with larger pictures">
+          <span class="view-gallery icon">
+          </span>
+          gallery
+         </button>
+         <span class="toggle-arrow">
+         </span>
+        </li>
+        <li class="dropdown-item mode">
+         <button data-selection="map" id="mapview" title="show results on a map">
+          <span class="view-map icon">
+          </span>
+          map
+         </button>
+         <span class="toggle-arrow">
+         </span>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="search-sort">
+      <div aria-expanded="false" aria-label="sort options" class="dropdown dropdown-sort dropdown-arrows" data-default-sort="date" role="toolbar">
+       <ul class="dropdown-list">
+        <li aria-selected="false" class="dropdown-item mode">
+         <a data-selection="upcoming" href="/search/apa?sort=upcoming&amp;availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4" title="show upcoming open houses">
+          upcoming
+          <span class="toggle-arrow">
+          </span>
+         </a>
+        </li>
+        <li aria-selected="true" class="dropdown-item mode sel">
+         <a data-selection="date" href="/search/apa?sort=date&amp;availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4" title="show newest matches first">
+          newest
+          <span class="toggle-arrow">
+          </span>
+         </a>
+        </li>
+        <li aria-selected="false" class="dropdown-item mode">
+         <a data-selection="priceasc" href="/search/apa?sort=priceasc&amp;availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4" title="sort by price, lowest to highest">
+          price ↑
+          <span class="toggle-arrow">
+          </span>
+         </a>
+        </li>
+        <li aria-selected="false" class="dropdown-item mode">
+         <a data-selection="pricedsc" href="/search/apa?sort=pricedsc&amp;availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4" title="sort by price, highest to lowest">
+          price ↓
+          <span class="toggle-arrow">
+          </span>
+         </a>
+        </li>
+        <li aria-selected="false" class="dropdown-item mode">
+         <a data-selection="dist" href="/search/apa?sort=dist&amp;availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4" title="sort by distance, lowest to highest">
+          distance ↑
+          <span class="toggle-arrow">
+          </span>
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="paginator buttongroup firstpage lastpage">
+      <span class="resulttotal">
+       <span class="for-map">
+        displaying
+        <span class="displaycountShow">
+         ...
+        </span>
+        postings
+       </span>
+      </span>
+      <span class="buttons">
+       <a class="button first" href="/search/apa?availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4&amp;sort=date" title="first page">
+        &lt;&lt;
+       </a>
+       <span class="button first" title="first page">
+        &lt;&lt;
+       </span>
+       <a class="button prev" href="/search/apa?availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4&amp;sort=date" title="previous page">
+        &lt; prev
+       </a>
+       <span class="button prev" title="previous page">
+        &lt; prev
+       </span>
+       <span class="button pagenum">
+        <span class="range">
+         <span class="rangeFrom">
+          1
+         </span>
+         -
+         <span class="rangeTo">
+          8
+         </span>
+        </span>
+        /
+        <span class="totalcount">
+         8
+        </span>
+       </span>
+       <a class="button next" href="" title="next page">
+        next &gt;
+       </a>
+       <span class="button next" title="next page">
+        next &gt;
+       </span>
+      </span>
+     </div>
+    </div>
+    <div class="content" id="sortable-results">
+     <section class="favlistsection">
+      <section class="favlistinfo">
+      </section>
+      <section class="banishlistinfo">
+      </section>
+     </section>
+     <div class="open-map-view-button">
+      <span>
+       see in map view
+      </span>
+     </div>
+     <div data-arealat="44.980000" data-arealon="-93.263603" id="mapcontainer">
+      <div id="noresult-overlay">
+      </div>
+      <div id="noresult-text">
+       <span class="message">
+        No mappable items found
+       </span>
+      </div>
+      <div class="loading" id="map">
+       <div class="close-full-screen-map-mode-button">
+        close fullscreen
+       </div>
+       <div class="close-map-view-button">
+        close map
+       </div>
+      </div>
+     </div>
+     <ul class="rows">
+      <li class="result-row" data-pid="7157733083">
+       <a class="result-image gallery" data-ids="3:00000_fahB4qz3IhA_09G06r,3:00k0k_a4cQrO5k6iX_09G06s,3:00l0l_5ZGUWqU3Mi3_0c6084,3:00Y0Y_1mIaWriIciu_0c6084,3:00000_jW3OcIhmvhz_0c6084,3:00c0c_de0dF1b9W4a_0c6084,3:00N0N_izD8dbYrV64_0c6084,3:00G0G_kyuMVbNJskI_0c6084,3:00B0B_h1AWVoAtzBD_0c6084,3:00A0A_741W3QTbtBV_0c6084,3:00j0j_f1u1FLhazqa_0c6084,3:00C0C_4erLAxfDeyx_0c6084,3:00O0O_iH20nhRgJ47_0c6084,3:00606_hWrgIa0Y5SX_06s084,3:00r0r_4gLQ6NS2cAa_0c6084,3:01717_5H2JideajfM_0c6084,3:01717_kSE212msWav_0c6084" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-apply-by-and-get-half-off/7157733083.html">
+        <span class="result-price">
+         $1520
+        </span>
+       </a>
+       <p class="result-info">
+        <span class="icon icon-star" role="button">
+         <span class="screen-reader-text">
+          favorite this post
+         </span>
+        </span>
+        <time class="result-date" datetime="2020-07-11 18:27" title="Sat 11 Jul 06:27:01 PM">
+         Jul 11
+        </time>
+        <a class="result-title hdrlnk" data-id="7157733083" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-apply-by-and-get-half-off/7157733083.html">
+         Apply by 7/15/20 and get Half Off August! Limited. Welcome home.
+        </a>
+        <span class="result-meta">
+         <span class="result-price">
+          $1520
+         </span>
+         <span class="housing">
+          1br -
+                    714ft
+          <sup>
+           2
+          </sup>
+          -
+         </span>
+         <span class="result-hood">
+          (Minneapolis)
+         </span>
+         <span class="result-tags">
+          <span class="pictag">
+           pic
+          </span>
+          <span class="maptag">
+           0.6mi
+          </span>
+         </span>
+         <span class="banish icon icon-trash collapsed-trash" role="button">
+          <span class="screen-reader-text">
+           hide this posting
+          </span>
+         </span>
+         <span aria-hidden="true" class="unbanish icon icon-trash red" role="button">
+         </span>
+         <a class="restore-link" href="#">
+          <span class="restore-narrow-text">
+           restore
+          </span>
+          <span class="restore-wide-text">
+           restore this posting
+          </span>
+         </a>
+        </span>
+       </p>
+      </li>
+      <li class="result-row" data-pid="7157655555">
+       <a class="result-image gallery" data-ids="3:00s0s_jNB46A9HvB9_0uY0kE,3:00P0P_7RM8GeawNEb_0CI0pO,3:00s0s_dwY71HUBKlZ_0uY0kE,3:01212_jr38E7E84dO_0uY0kE,3:00Y0Y_5wt2poKu9nY_0uY0kE,3:01212_1qIzIYrC1Ab_0uY0kE,3:00A0A_euTzyyVi581_0uY0kE,3:00m0m_j9TdVNfIFIs_0uY0kE,3:00R0R_f6g1AuuOro8_17a0JT,3:00M0M_k82yQHE7aHJ_0uY0kE,3:00505_lQHZ0lyRqp8_0Wl0HM" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-one-bedroom-with-view-and/7157655555.html">
+        <span class="result-price">
+         $1598
+        </span>
+       </a>
+       <p class="result-info">
+        <span class="icon icon-star" role="button">
+         <span class="screen-reader-text">
+          favorite this post
+         </span>
+        </span>
+        <time class="result-date" datetime="2020-07-11 16:38" title="Sat 11 Jul 04:38:44 PM">
+         Jul 11
+        </time>
+        <a class="result-title hdrlnk" data-id="7157655555" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-one-bedroom-with-view-and/7157655555.html">
+         One bedroom with view and great price!!!
+        </a>
+        <span class="result-meta">
+         <span class="result-price">
+          $1598
+         </span>
+         <span class="housing">
+          1br -
+                    686ft
+          <sup>
+           2
+          </sup>
+          -
+         </span>
+         <span class="result-hood">
+          (Northeast Minneapolis, MN)
+         </span>
+         <span class="result-tags">
+          <span class="pictag">
+           pic
+          </span>
+          <span class="maptag">
+           1.5mi
+          </span>
+         </span>
+         <span class="banish icon icon-trash collapsed-trash" role="button">
+          <span class="screen-reader-text">
+           hide this posting
+          </span>
+         </span>
+         <span aria-hidden="true" class="unbanish icon icon-trash red" role="button">
+         </span>
+         <a class="restore-link" href="#">
+          <span class="restore-narrow-text">
+           restore
+          </span>
+          <span class="restore-wide-text">
+           restore this posting
+          </span>
+         </a>
+        </span>
+       </p>
+      </li>
+      <li class="result-row" data-pid="7157648625">
+       <a class="result-image gallery" data-ids="3:00f0f_ek75z7URIL9_0q80ge,3:00o0o_9vvMBjjDL21_0jC0qb,3:00k0k_6xTCYdIH5CK_0to0jC,3:00K0K_1igQSX9VxVo_0hp0bC,3:01212_eDNBm5vQWVl_0te0jC,3:00b0b_3C3ljrdDtYQ_0jm0ew,3:00606_hFYEyDUmloL_0kK0de,3:00S0S_lmwrUnPgb7K_0pO0gz,3:00E0E_gKrJ9vZ4njZ_0aO07K" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-luxury-at-its-finest/7157648625.html">
+        <span class="result-price">
+         $1566
+        </span>
+       </a>
+       <p class="result-info">
+        <span class="icon icon-star" role="button">
+         <span class="screen-reader-text">
+          favorite this post
+         </span>
+        </span>
+        <time class="result-date" datetime="2020-07-11 16:11" title="Sat 11 Jul 04:11:22 PM">
+         Jul 11
+        </time>
+        <a class="result-title hdrlnk" data-id="7157648625" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-luxury-at-its-finest/7157648625.html">
+         Luxury At It's Finest
+        </a>
+        <span class="result-meta">
+         <span class="result-price">
+          $1566
+         </span>
+         <span class="housing">
+          1br -
+                    710ft
+          <sup>
+           2
+          </sup>
+          -
+         </span>
+         <span class="result-hood">
+          (Minneapolis)
+         </span>
+         <span class="result-tags">
+          <span class="pictag">
+           pic
+          </span>
+          <span class="maptag">
+           0.7mi
+          </span>
+         </span>
+         <span class="banish icon icon-trash collapsed-trash" role="button">
+          <span class="screen-reader-text">
+           hide this posting
+          </span>
+         </span>
+         <span aria-hidden="true" class="unbanish icon icon-trash red" role="button">
+         </span>
+         <a class="restore-link" href="#">
+          <span class="restore-narrow-text">
+           restore
+          </span>
+          <span class="restore-wide-text">
+           restore this posting
+          </span>
+         </a>
+        </span>
+       </p>
+      </li>
+      <li class="result-row" data-pid="7157634635">
+       <a class="result-image gallery" data-ids="3:00u0u_k1Bl4sNeI23_0ew09G,3:00n0n_7loqhmykKyX_0ew09G,3:00v0v_gNyFYoK206W_0ew09G,3:00D0D_bWC3fhmAvmz_0ew09G,3:00i0i_2YCbCrNUWis_0ew09G,3:01111_1gOIrbu5Oyr_0ew09G,3:00707_TpZz8mTRA_0ew09G,3:00p0p_kkXXG4qw8Ym_0ew09G,3:00M0M_gqwraLID7zb_0ew09G,3:00I0I_dSiJsJnw8C2_0ew09G,3:00505_8JJxIinLl67_0ew09G,3:00808_bUJwycJ5Kwx_0ew09G,3:00q0q_iIeErLUhB9i_0ew09G,3:01111_chzTl6JNUkF_0ew09G,3:00C0C_230W13CGXkb_0ew09G,3:00t0t_4lgizsLVLPJ_0ew09G,3:00j0j_7HPBWWer7Cb_0ew09G,3:01212_6WqxmMI2Uhx_0ew09G,3:00B0B_8YIOdZIobp2_0ew09G,3:01313_hrWI7xvZPrS_0ew09G" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-beautiful-community/7157634635.html">
+        <span class="result-price">
+         $1375
+        </span>
+       </a>
+       <p class="result-info">
+        <span class="icon icon-star" role="button">
+         <span class="screen-reader-text">
+          favorite this post
+         </span>
+        </span>
+        <time class="result-date" datetime="2020-07-11 15:30" title="Sat 11 Jul 03:30:42 PM">
+         Jul 11
+        </time>
+        <a class="result-title hdrlnk" data-id="7157634635" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-beautiful-community/7157634635.html">
+         Beautiful Community Overlooking The Greenway Trail!
+        </a>
+        <span class="result-meta">
+         <span class="result-price">
+          $1375
+         </span>
+         <span class="housing">
+          1br -
+                    611ft
+          <sup>
+           2
+          </sup>
+          -
+         </span>
+         <span class="result-hood">
+          (Uptown)
+         </span>
+         <span class="result-tags">
+          <span class="pictag">
+           pic
+          </span>
+          <span class="maptag">
+           2mi
+          </span>
+         </span>
+         <span class="banish icon icon-trash collapsed-trash" role="button">
+          <span class="screen-reader-text">
+           hide this posting
+          </span>
+         </span>
+         <span aria-hidden="true" class="unbanish icon icon-trash red" role="button">
+         </span>
+         <a class="restore-link" href="#">
+          <span class="restore-narrow-text">
+           restore
+          </span>
+          <span class="restore-wide-text">
+           restore this posting
+          </span>
+         </a>
+        </span>
+       </p>
+      </li>
+      <li class="result-row" data-pid="7157534769">
+       <a class="result-image gallery" data-ids="3:00707_7AvfvFeQ7AD_0lM0t2,3:00R0R_7JsPRBOyjfm_0lM0t2,3:00y0y_6aek1mOBioO_0lM0t2,3:00u0u_ixtx1U71OQx_0lM0t2,3:00505_crrj8ANMB0Q_0lM0t2,3:00Y0Y_ayW5oVFIbMH_0de0bi,3:01010_c8QsPsGlZTf_0fu08I,3:00H0H_ej5n986Gyj9_0CI0pQ,3:00v0v_lj2t4BmkJ0U_0fu08I" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-ask-how-to-get-september/7157534769.html">
+        <span class="result-price">
+         $1450
+        </span>
+       </a>
+       <p class="result-info">
+        <span class="icon icon-star" role="button">
+         <span class="screen-reader-text">
+          favorite this post
+         </span>
+        </span>
+        <time class="result-date" datetime="2020-07-11 13:09" title="Sat 11 Jul 01:09:22 PM">
+         Jul 11
+        </time>
+        <a class="result-title hdrlnk" data-id="7157534769" href="https://minneapolis.craigslist.org/hnp/apa/d/minneapolis-ask-how-to-get-september/7157534769.html">
+         Ask How To Get September Rent FREE!! Apply NOW!!
+        </a>
+        <span class="result-meta">
+         <span class="result-price">
+          $1450
+         </span>
+         <span class="housing">
+          1br -
+                    625ft
+          <sup>
+           2
+          </sup>
+          -
+         </span>
+         <span class="result-tags">
+          <span class="pictag">
+           pic
+          </span>
+          <span class="maptag">
+           2.6mi
+          </span>
+         </span>
+         <span class="banish icon icon-trash collapsed-trash" role="button">
+          <span class="screen-reader-text">
+           hide this posting
+          </span>
+         </span>
+         <span aria-hidden="true" class="unbanish icon icon-trash red" role="button">
+         </span>
+         <a class="restore-link" href="#">
+          <span class="restore-narrow-text">
+           restore
+          </span>
+          <span class="restore-wide-text">
+           restore this posting
+          </span>
+         </a>
+        </span>
+       </p>
+      </li>
+      <li class="result-row" data-pid="7157496922">
+       <a class="result-image gallery" data-ids="3:00y0y_8kMTuLqUmxC_0ak07K,3:00t0t_cFeCSLF1K7J_0bV08Q,3:00H0H_qZLz4wtBZE_0ak07K,3:00J0J_9pAu51PlJxW_0ak07K,3:00606_jEeglKT4rWg_0ak07K,3:00n0n_loKML0qRA1s_0ak07K,3:00J0J_6mnjJtKy6by_0ak07K,3:00303_h4O9gBxGz5B_0ak07K,3:01515_6JFo33cwAn1_0ak07K,3:00202_apcc5T7qi7g_0ak07K,3:00p0p_b1Dlig79hNv_0ak07K,3:00M0M_iJEwfpY6HaX_0ak07K,3:00E0E_iDrAPxxip1E_0ak07K,3:00A0A_dxLSRkxQwPY_0ak07K,3:00M0M_45M178BWJJo_0ak07K,3:01414_atqMKpbfeaq_0ak07K" href="https://minneapolis.craigslist.org/ram/apa/d/saint-paul-all-the-amenities-you/7157496922.html">
+        <span class="result-price">
+         $1504
+        </span>
+       </a>
+       <p class="result-info">
+        <span class="icon icon-star" role="button">
+         <span class="screen-reader-text">
+          favorite this post
+         </span>
+        </span>
+        <time class="result-date" datetime="2020-07-11 12:25" title="Sat 11 Jul 12:25:23 PM">
+         Jul 11
+        </time>
+        <a class="result-title hdrlnk" data-id="7157496922" href="https://minneapolis.craigslist.org/ram/apa/d/saint-paul-all-the-amenities-you/7157496922.html">
+         All the Amenities You Deserve At The Legends At Berry! 3 BR Available!
+        </a>
+        <span class="result-meta">
+         <span class="result-price">
+          $1504
+         </span>
+         <span class="housing">
+          3br -
+                    1262ft
+          <sup>
+           2
+          </sup>
+          -
+         </span>
+         <span class="result-hood">
+          (Saint Paul, MN)
+         </span>
+         <span class="result-tags">
+          <span class="pictag">
+           pic
+          </span>
+          <span class="maptag">
+           3.9mi
+          </span>
+         </span>
+         <span class="banish icon icon-trash collapsed-trash" role="button">
+          <span class="screen-reader-text">
+           hide this posting
+          </span>
+         </span>
+         <span aria-hidden="true" class="unbanish icon icon-trash red" role="button">
+         </span>
+         <a class="restore-link" href="#">
+          <span class="restore-narrow-text">
+           restore
+          </span>
+          <span class="restore-wide-text">
+           restore this posting
+          </span>
+         </a>
+        </span>
+       </p>
+      </li>
+      <li class="result-row" data-pid="7157497229">
+       <a class="result-image gallery" data-ids="3:00E0E_iDrAPxxip1E_0ak07K,3:00b0b_bZpN98p8Iz1_06X08U,3:00H0H_qZLz4wtBZE_0ak07K,3:00u0u_cRuOZcWmMHR_0ak07K,3:00U0U_ihb9SXhbY2z_0ak07K,3:00r0r_lGUEcDE6sur_0ak07K,3:00202_apcc5T7qi7g_0ak07K,3:00p0p_b1Dlig79hNv_0ak07K,3:00M0M_iJEwfpY6HaX_0ak07K,3:00A0A_dxLSRkxQwPY_0ak07K,3:00M0M_45M178BWJJo_0ak07K,3:01414_atqMKpbfeaq_0ak07K,3:00707_ifRRFAGW4VB_0ak07K" href="https://minneapolis.craigslist.org/ram/apa/d/saint-paul-reserve-your-brand-new-home/7157497229.html">
+        <span class="result-price">
+         $1095
+        </span>
+       </a>
+       <p class="result-info">
+        <span class="icon icon-star" role="button">
+         <span class="screen-reader-text">
+          favorite this post
+         </span>
+        </span>
+        <time class="result-date" datetime="2020-07-11 12:19" title="Sat 11 Jul 12:19:46 PM">
+         Jul 11
+        </time>
+        <a class="result-title hdrlnk" data-id="7157497229" href="https://minneapolis.craigslist.org/ram/apa/d/saint-paul-reserve-your-brand-new-home/7157497229.html">
+         Reserve Your BRAND-NEW Home &amp; Live RENT FREE until 2021!*
+        </a>
+        <span class="result-meta">
+         <span class="result-price">
+          $1095
+         </span>
+         <span class="housing">
+          1br -
+                    723ft
+          <sup>
+           2
+          </sup>
+          -
+         </span>
+         <span class="result-hood">
+          (Saint Paul, MN)
+         </span>
+         <span class="result-tags">
+          <span class="pictag">
+           pic
+          </span>
+          <span class="maptag">
+           3.9mi
+          </span>
+         </span>
+         <span class="banish icon icon-trash collapsed-trash" role="button">
+          <span class="screen-reader-text">
+           hide this posting
+          </span>
+         </span>
+         <span aria-hidden="true" class="unbanish icon icon-trash red" role="button">
+         </span>
+         <a class="restore-link" href="#">
+          <span class="restore-narrow-text">
+           restore
+          </span>
+          <span class="restore-wide-text">
+           restore this posting
+          </span>
+         </a>
+        </span>
+       </p>
+      </li>
+      <li class="result-row" data-pid="7157497091">
+       <a class="result-image gallery" data-ids="3:00J0J_6mnjJtKy6by_0ak07K,3:00101_6gygpiv4X7a_09A09c,3:00H0H_qZLz4wtBZE_0ak07K,3:00r0r_lGUEcDE6sur_0ak07K,3:00n0n_loKML0qRA1s_0ak07K,3:00303_h4O9gBxGz5B_0ak07K,3:01515_6JFo33cwAn1_0ak07K,3:00202_apcc5T7qi7g_0ak07K,3:00p0p_b1Dlig79hNv_0ak07K,3:00M0M_iJEwfpY6HaX_0ak07K,3:00E0E_iDrAPxxip1E_0ak07K,3:00A0A_dxLSRkxQwPY_0ak07K,3:00M0M_45M178BWJJo_0ak07K,3:01414_atqMKpbfeaq_0ak07K,3:00707_ifRRFAGW4VB_0ak07K" href="https://minneapolis.craigslist.org/ram/apa/d/saint-paul-now-leasing-gorgeous-2/7157497091.html">
+        <span class="result-price">
+         $1306
+        </span>
+       </a>
+       <p class="result-info">
+        <span class="icon icon-star" role="button">
+         <span class="screen-reader-text">
+          favorite this post
+         </span>
+        </span>
+        <time class="result-date" datetime="2020-07-11 12:19" title="Sat 11 Jul 12:19:35 PM">
+         Jul 11
+        </time>
+        <a class="result-title hdrlnk" data-id="7157497091" href="https://minneapolis.craigslist.org/ram/apa/d/saint-paul-now-leasing-gorgeous-2/7157497091.html">
+         NOW LEASING – Gorgeous 2 Bedroom Apt at The Legends at Berry!
+        </a>
+        <span class="result-meta">
+         <span class="result-price">
+          $1306
+         </span>
+         <span class="housing">
+          2br -
+                    863ft
+          <sup>
+           2
+          </sup>
+          -
+         </span>
+         <span class="result-hood">
+          (Saint Paul, MN)
+         </span>
+         <span class="result-tags">
+          <span class="pictag">
+           pic
+          </span>
+          <span class="maptag">
+           3.9mi
+          </span>
+         </span>
+         <span class="banish icon icon-trash collapsed-trash" role="button">
+          <span class="screen-reader-text">
+           hide this posting
+          </span>
+         </span>
+         <span aria-hidden="true" class="unbanish icon icon-trash red" role="button">
+         </span>
+         <a class="restore-link" href="#">
+          <span class="restore-narrow-text">
+           restore
+          </span>
+          <span class="restore-wide-text">
+           restore this posting
+          </span>
+         </a>
+        </span>
+       </p>
+      </li>
+     </ul>
+    </div>
+    <div class="search-legend bottom">
+     <div class="search-view">
+      <span class="buttongroup">
+       <a class="backtotop button" href="#page-top">
+        ^ back to top
+       </a>
+      </span>
+     </div>
+     <div class="search-sort">
+      <span class="buttongroup">
+       <a class="backtotop button" href="#page-top">
+        ^ back to top
+       </a>
+      </span>
+     </div>
+     <div class="paginator buttongroup firstpage lastpage">
+      <span class="resulttotal">
+       <span class="for-map">
+        displaying
+        <span class="displaycountShow">
+         ...
+        </span>
+        postings
+       </span>
+      </span>
+      <span class="buttons">
+       <a class="button first" href="/search/apa?availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4&amp;sort=date" title="first page">
+        &lt;&lt;
+       </a>
+       <span class="button first" title="first page">
+        &lt;&lt;
+       </span>
+       <a class="button prev" href="/search/apa?availabilityMode=0&amp;bundleDuplicates=1&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4&amp;sort=date" title="previous page">
+        &lt; prev
+       </a>
+       <span class="button prev" title="previous page">
+        &lt; prev
+       </span>
+       <span class="button pagenum">
+        <span class="range">
+         <span class="rangeFrom">
+          1
+         </span>
+         -
+         <span class="rangeTo">
+          8
+         </span>
+        </span>
+        /
+        <span class="totalcount">
+         8
+        </span>
+       </span>
+       <a class="button next" href="" title="next page">
+        next &gt;
+       </a>
+       <span class="button next" title="next page">
+        next &gt;
+       </span>
+      </span>
+     </div>
+    </div>
+    <section class="blurbs">
+    </section>
+    <div id="floater">
+     <img alt="" class="loading" src="//www.craigslist.org/images/animated-spinny.gif"/>
+     <img alt="" class="payload" src="//www.craigslist.org/images/animated-spinny.gif"/>
+    </div>
+   </form>
+   <aside class="tsb">
+    <ul>
+     <li>
+      <a href="https://www.craigslist.org/about/FHA">
+       fair housing
+      </a>
+     </li>
+     <li>
+      <a href="https://www.craigslist.org/about/scams">
+       avoiding scams
+      </a>
+     </li>
+    </ul>
+   </aside>
+   <div class="slidemessage">
+    <span class="fave">
+     <span class="star">
+     </span>
+     favorited
+    </span>
+    <span class="unfave">
+     <span class="star">
+     </span>
+     no longer favorited
+    </span>
+    <span class="hide">
+     <span class="trash">
+     </span>
+     hidden
+    </span>
+    <span class="unhide">
+     <span class="trash">
+     </span>
+     no longer hidden
+    </span>
+   </div>
+   <footer>
+    <span class="rss">
+     <a class="l" href="https://minneapolis.craigslist.org/search/apa?availabilityMode=0&amp;bundleDuplicates=1&amp;format=rss&amp;hasPic=1&amp;maxSqft=1400&amp;max_price=1600&amp;minSqft=600&amp;min_price=1000&amp;no_smoking=1&amp;pets_cat=1&amp;pets_dog=1&amp;postal=55402&amp;postedToday=1&amp;search_distance=4&amp;sort=date">
+      RSS
+     </a>
+     <a href="https://www.craigslist.org/about/rss">
+      (?)
+     </a>
+     <br/>
+    </span>
+    <ul class="clfooter">
+     <li>
+      © 2020
+      <span class="desktop">
+       craigslist
+      </span>
+      <span class="mobile">
+       CL
+      </span>
+     </li>
+     <li>
+      <a href="https://www.craigslist.org/about/help/">
+       help
+      </a>
+     </li>
+     <li>
+      <a href="https://www.craigslist.org/about/scams">
+       safety
+      </a>
+     </li>
+     <li class="desktop">
+      <a href="https://www.craigslist.org/about/privacy.policy">
+       privacy
+      </a>
+     </li>
+     <li class="desktop">
+      <a href="https://forums.craigslist.org/?forumID=8">
+       feedback
+      </a>
+     </li>
+     <li>
+      <a href="//www.craigslist.org/about/terms.of.use.en-us">
+       terms
+      </a>
+      <sup class="neu">
+       new
+      </sup>
+     </li>
+     <li>
+      <a href="https://www.craigslist.org/about/">
+       about
+      </a>
+     </li>
+     <li class="fsel desktop linklike" data-mode="mobile">
+      mobile
+     </li>
+     <li class="fsel mobile linklike" data-mode="regular">
+      desktop
+     </li>
+    </ul>
+   </footer>
+  </section>
+  <template id="gallerycarousel">
+   <div class="slider-info">
+   </div>
+   <div class="slider-back arrow">
+    &lt;
+   </div>
+   <div class="slider-forward arrow">
+    &gt;
+   </div>
+  </template>
+  <script>
+   try {
+                    if (
+                        !/\/\/.+\.craigslist\.org\/about\//.test(window.location.href)
+                        &&
+                        (!window.addEventListener || JSON.parse(JSON.stringify('x')) !== 'x')
+                    ) {
+                        throw "unsupported browser";
+                    }
+                } catch (e) {
+                    function cleanup() {
+                        document.body.innerHTML = '<div id="cl-unsupported-browser" style="margin:1em;font-size:150%;text-align:center;">We have detected you are using a browser that is missing critical features.<br><br>Please visit craigslist from a modern browser.</div>';
+                        document.body.style = "display:block";
+                    }
+
+                    try {
+                        document.body.style = "display:none";
+                    } catch (e) {
+                    }
+                    window.onload = cleanup;
+                    window.clUnsupportedBrowser = true;
+                }
+  </script>
+  <script src="//www.craigslist.org/js/general-concat.min.js?v=5b1de0470c3b77d9aba88c5a713e79e6" type="text/javascript">
+  </script>
+  <script id="clustertemplate" type="text/template">
+   <li class="posting {visited}" data-pid="{PostingID}">
+        <img src="{ImageThumb}">
+        <div class="housing_bubble_banner">
+            <span class="{hasPrice}price">{currencySymbol}{price}</span>
+            <span class="bedrooms">{BedroomsContent}</span>
+            <span class="postingtitle"><a>{PostingTitle}</a></span>
+            <span class="js-only map-banish-unbanish" data-pid="{PostingID}">
+                <span class="banish">
+                    <span class="icon icon-trash" role="button"></span>
+                    <span class="screen-reader-text">hide this posting</span>
+                </span>
+                <span class="unbanish">
+                    <span class="icon icon-trash red" role="button"></span>
+                    unhide
+                </span>
+            </span>
+        </div>
+    </li>
+  </script>
+  <script id="postingtemplate" type="text/template">
+   <div class="viewcontainer pics loading">
+        <div class="backtolist">
+            &laquo; back to posting list
+        </div>
+        <div class="title">
+            <span class="icon icon-star" data-pid="{PostingID}" role="button">
+                <span class="screen-reader-text">favorite this post</span>
+            </span>
+            <span class="postingtitle">
+                <a href="{PostingURL}" target="_blank">{PostingTitle}</a>
+            </span>
+            <div>
+                <span class="{hasPrice}price">{currencySymbol}{price}</span>
+                <span class="bedrooms">{BedroomsContent}</span>
+                <span class="js-only map-banish-unbanish" data-pid="{PostingID}">
+                    <span class="banish">
+                        <span class="icon icon-trash" role="button"></span>
+                        <span class="screen-reader-text">hide this posting</span>
+                    </span>
+                    <span class="unbanish">
+                        <span class="icon icon-trash red" role="button"></span>
+                        <span class="screen-reader-text">unhide</span>
+                        unhide
+                    </span>
+                </span>
+            </div>
+        </div>
+        <hr style="clear:both">
+        <div class="picscontainer gallery">
+            <span class="slider-back arrow">&lt;</span><span class="slider-info"></span><span class="slider-forward arrow">&gt;</span>
+            <div class="swipe">
+                <div class="swipe-wrap">
+                    <img class="loading" src="//www.craigslist.org/images/animated-spinny.gif" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="infocontainer"></div>
+        <hr style="clear:both">
+        <div class="timecontainer"></div>
+        <a class="viewpostinglink" href="{PostingURL}" target="_blank">view posting</a>
+        <div class="contenttoggle">
+            <a class="moreinfo">more info</a>
+            <a class="showpics">show images</a>
+        </div>
+    </div>
+  </script>
+  <script id="popuptemplate" type="text/template">
+   <div id="mapbubble" class="posting">
+        <ul id="clusterbubble"></ul>
+        <div id="postbubble"></div>
+    </div>
+  </script>
+  <script src="//www.craigslist.org/js/leaflet-concat.min.js?v=4c56f70c4eb7294c8ffeb1d8fdcf4704" type="text/javascript">
+  </script>
+  <script src="//www.craigslist.org/js/search-concat.min.js?v=b3fa2bc3c80149a1d5dfd557bfb24946" type="text/javascript">
+  </script>
+  <script src="//www.craigslist.org/js/postings-concat.min.js?v=1cf575e89c354876e5a9dc37cb9bb454" type="text/javascript">
+  </script>
+ </body>
+</html>
+
+
