@@ -31,6 +31,9 @@ def soups_on(url):
     source = requests.get(url, headers=headers)
     return bs.BeautifulSoup(source.content, 'lxml')
 
+# Version Number
+version = 0.1
+debug = 0
 
 # Urls
 zillow_url = r'https://www.zillow.com/homes/for_rent/1-_beds/1.0-_baths/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-93.39283904001532%2C%22east%22%3A-93.19199522898016%2C%22south%22%3A44.92104412393289%2C%22north%22%3A45.01844458626822%7D%2C%22mapZoom%22%3A13%2C%22customRegionId%22%3A%222df575f09eX1-CR14087aax9bs72_uh1re%22%2C%22savedSearchEnrollmentId%22%3A%22X1-SSkkhwfraoc6oa1000000000_40ojx%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A282815%2C%22max%22%3A450470%7D%2C%22beds%22%3A%7B%22min%22%3A1%7D%2C%22baths%22%3A%7B%22min%22%3A1%7D%2C%22sqft%22%3A%7B%22min%22%3A700%7D%2C%22doz%22%3A%7B%22value%22%3A%221%22%7D%2C%22pmf%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22min%22%3A1000%2C%22max%22%3A1600%7D%2C%22sort%22%3A%7B%22value%22%3A%22mostrecentchange%22%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22fr%22%3A%7B%22value%22%3Atrue%7D%2C%22cat%22%3A%7B%22value%22%3Atrue%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22sdog%22%3A%7B%22value%22%3Atrue%7D%2C%22fsbo%22%3A%7B%22value%22%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22%3Afalse%7D%2C%22pf%22%3A%7B%22value%22%3Afalse%7D%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D'
@@ -49,7 +52,7 @@ while True:
     break
 print('\n')
 
-# Check title for '0 Rentals'. Zillow gives 'similar results nearby' in this case
+# Check title for '0 Rentals'. Zillow gives 'similar results nearby' in this case which we ignore
 zero_rentals = False
 for h3 in zillow_soup.find_all('title'):
     if '0 Rentals' in h3.text:
@@ -67,6 +70,8 @@ criagslist_soup = soups_on(criagslist_url)
 for listing in criagslist_soup.find_all('a', attrs={'class': 'result-image gallery'}):
     listings.append(listing['href'])
 
+# I haven't run into a captcha on craigslist, but I know they exist.
+# This is an attempt at capturing data if we think we ran into one
 # If we suspect a captcha in criagslist, make an error dump and alert via text
 if criagslist_soup.find(text='Captcha'):
     debug_msg = f"""

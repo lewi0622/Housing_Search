@@ -1,10 +1,3 @@
-Clean code
-More comments
-
-Version number
-
-Bring into github, and gitignore for credentials
-
 Find way to trigger craigslist captcha so we can properly search for it?
 
 Port to raspberrypi so it will always be on
