@@ -46,16 +46,16 @@ def get_zillow(url):
         break
     print()
 
-    # Check title for '0 Rentals'. Zillow gives 'similar results nearby' in this case which we ignore
-    zero_rentals = False
-    for h3 in zillow_soup.find_all('title'):
-        if '0 Rentals' in h3.text:
-            zero_rentals = True
+    # Make a copy of soup
+    zillow_soup_copy = zillow_soup.__copy__()
 
-    if not zero_rentals:
-        return [listing['href'] for listing in zillow_soup.find_all('a', attrs={'class': 'list-card-link list-card-img'})]
-    else:
-        return []
+    # Locate the 'search-list-relaxed-results'
+    relaxed_results = zillow_soup_copy.find('div', attrs={'class': 'search-list-relaxed-results'})
+    if relaxed_results:
+        # remove relaxed results from tree
+        relaxed_results.extract()
+        return [listing['href'] for listing in zillow_soup_copy.find_all('a', attrs={'class': 'list-card-link list-card-img'})]
+    return [listing['href'] for listing in zillow_soup.find_all('a', attrs={'class': 'list-card-link list-card-img'})]
 
 
 def get_craigslist(url):
@@ -97,6 +97,7 @@ def get_apartments(url):
         return [listing['href'] for listing in apartments_soup.find_all('a', attrs={'class': 'placardTitle js-placardTitle'})]
     except:
         return []
+
 
 # Version Number
 version = 0.2
