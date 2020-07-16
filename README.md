@@ -1,2 +1,2 @@
 # Housing_Search
-Loads searches for Zillow and Craigslist, scrapes the listing urls and notifies via text. 
+Loads searches for Zillow, Craigslist, Trulia, and Apartments.com, scrapes the listing urls and notifies via text. 
