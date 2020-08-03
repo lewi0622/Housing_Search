@@ -4,7 +4,7 @@ import requests
 import smtplib
 import ssl
 
-from credentials import sender_email, password, receiver_email
+from settings.credentials import sender_email, password, receiver_email
 
 
 def soups_on(url):

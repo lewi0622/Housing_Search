@@ -2,12 +2,12 @@ import pandas as pd
 import os
 import support
 
-from apartments import get_apartments
-from craigslist import get_craigslist
-from trulia import get_trulia
-from zillow import get_zillow
+from sites.apartments import get_apartments
+from sites.craigslist import get_craigslist
+from sites.trulia import get_trulia
+from sites.zillow import get_zillow
 
-from urls import urls
+from settings.urls import urls
 
 # ********************************************************************
 # Version Number
