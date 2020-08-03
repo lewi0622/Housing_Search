@@ -1,5 +1,4 @@
 # Housing_Search
-
 Minneapolis has a very competitive housing and rental market. 
 Staying on top of new postings can be time consuming and missing a posting by even one day can result in a missed opportunity.
 
