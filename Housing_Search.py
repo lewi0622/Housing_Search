@@ -1,174 +1,44 @@
-import smtplib
-import ssl
-
-import bs4 as bs
 import pandas as pd
-import requests
-import re
+import os
+import support
 
-from time import sleep
-from fake_useragent import UserAgent
-from credentials import sender_email, password, receiver_email
+from apartments import get_apartments
+from craigslist import get_craigslist
+from trulia import get_trulia
+from zillow import get_zillow
 
+from urls import urls
 
-def soups_on(url):
-    """returns bs object for HTML parsing"""
-    # Set headers so we don't get bugged by captchas
-    ua = UserAgent()
-
-    headers = {
-        "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1",
-        "User-Agent": ua.random,
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-        "Sec-Fetch-Site": "same-origin",
-        "Sec-Fetch-Mode": "navigate",
-        "Sec-Fetch-User": "?1",
-        "Sec-Fetch-Dest": "document",
-        "Referer": "https://www.google.com/",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Accept-Language": "en-US,en;q=0.9"
-    }
-    source = requests.get(url, headers=headers)
-    return bs.BeautifulSoup(source.content, 'lxml')
-
-
-def get_zillow(url):
-    # Get Zillow listing urls
-    print("Trying to connect to Zillow", end="")
-    while True:
-        zillow_soup = soups_on(url)
-        # Check for captcha, try again
-        for h5 in zillow_soup.find_all('h5'):
-            if "Please verify you're a human to continue" in h5.text:
-                sleep(0.5)
-                print(".", end="")
-                continue
-        break
-    print()
-
-    # Make a copy of soup
-    zillow_soup_copy = zillow_soup.__copy__()
-
-    # Locate the 'search-list-relaxed-results'
-    relaxed_results = zillow_soup_copy.find('div', attrs={'class': 'search-list-relaxed-results'})
-    if relaxed_results:
-        # remove relaxed results from tree
-        relaxed_results.extract()
-        return [listing['href'] for listing in zillow_soup_copy.find_all('a', attrs={'class': 'list-card-link list-card-img'})]
-    return [listing['href'] for listing in zillow_soup.find_all('a', attrs={'class': 'list-card-link list-card-img'})]
-
-
-def get_craigslist(url):
-    # Get Craigslist urls
-    print("Trying to connect to Craigslist")
-    criagslist_soup = soups_on(url)
-
-    # I haven't run into a captcha on craigslist, but I know they exist.
-    # This is an attempt at capturing data if we think we ran into one
-    # If we suspect a captcha in criagslist, make an error dump and alert via text
-    if criagslist_soup.find(text='Captcha'):
-        debug_msg = f"""
-    Maybe found a captcha
-    
-    Craigslist url:
-    {criagslist_url}
-    
-    html dump:
-    {criagslist_soup.prettify()}
-    """
-        with open(r"C:\Users\lewi0\Desktop\Personal_Scripts\Housing_Search\error_log.txt", 'w', encoding="utf-8") as log:
-            log.writelines(debug_msg)
-        return ['check error log' + str(pd.to_datetime('today'))]
-
-    try:
-        return [listing['href'] for listing in criagslist_soup.find_all('a', attrs={'class': 'result-image gallery'})]
-    except:
-        return []
-
-
-def get_apartments(url):
-    # Get Apartments.com urls
-    print("Trying to connect to Apartments.com")
-    apartments_soup = soups_on(url)
-    
-    try:
-        return [listing['href'] for listing in apartments_soup.find_all('a', attrs={'class': 'placardTitle js-placardTitle'})]
-    except:
-        return []
-
-
-def get_trulia(url):
-    # Get Trulia urls
-    print("Trying to connect to Trulia")
-    trulia_soup = soups_on(url)
-
-    base_url = r'trulia.com'
-
-    try:
-        trulia_listings = [base_url + listing['href'] for listing in trulia_soup.find_all(href=re.compile(r'/p/mn/minneapolis'))]
-        # remove duplicates
-        return list(dict.fromkeys(trulia_listings))
-    except:
-        return []
-
+# ********************************************************************
 # Version Number
-version = 0.2
-debug = 0
+version = 0.3
 
-# Urls
-zillow_url = r'https://www.zillow.com/homes/for_rent/1-_beds/1.0-_baths/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22mapBounds%22%3A%7B%22west%22%3A-93.50802635404175%2C%22east%22%3A-93.10633873197143%2C%22south%22%3A44.868132495735146%2C%22north%22%3A45.062947488470165%7D%2C%22mapZoom%22%3A12%2C%22customRegionId%22%3A%222df575f09eX1-CR14087aax9bs72_uh1re%22%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22min%22%3A282815%2C%22max%22%3A450470%7D%2C%22beds%22%3A%7B%22min%22%3A1%7D%2C%22baths%22%3A%7B%22min%22%3A1%7D%2C%22sqft%22%3A%7B%22min%22%3A700%7D%2C%22doz%22%3A%7B%22value%22%3A%221%22%7D%2C%22pmf%22%3A%7B%22value%22%3Afalse%7D%2C%22fore%22%3A%7B%22value%22%3Afalse%7D%2C%22mp%22%3A%7B%22min%22%3A1000%2C%22max%22%3A1700%7D%2C%22auc%22%3A%7B%22value%22%3Afalse%7D%2C%22nc%22%3A%7B%22value%22%3Afalse%7D%2C%22fr%22%3A%7B%22value%22%3Atrue%7D%2C%22cat%22%3A%7B%22value%22%3Atrue%7D%2C%22land%22%3A%7B%22value%22%3Afalse%7D%2C%22sdog%22%3A%7B%22value%22%3Atrue%7D%2C%22fsbo%22%3A%7B%22value%22%3Afalse%7D%2C%22cmsn%22%3A%7B%22value%22%3Afalse%7D%2C%22pf%22%3A%7B%22value%22%3Afalse%7D%2C%22fsba%22%3A%7B%22value%22%3Afalse%7D%7D%2C%22isListVisible%22%3Atrue%7D'
-criagslist_url = r'https://minneapolis.craigslist.org/search/apa?sort=date&hasPic=1&postedToday=1&bundleDuplicates=1&search_distance=4&postal=55402&min_price=1000&max_price=1700&minSqft=600&maxSqft=1400&availabilityMode=0&pets_cat=1&pets_dog=1&no_smoking=1&sale_date=all+dates'
-apartments_url =r'https://www.apartments.com/houses/minneapolis-mn/min-1-bedrooms-1-bathrooms-1000-to-1700-pet-friendly/?bb=0gtmxlgn9K-t1tirG&so=8'
-trulia_uptown_url = r'https://www.trulia.com/for_rent/Minneapolis,MN/44.92109,44.96865,-93.32918,-93.24888_xy/1p_beds/1p_baths/1000-1700_price/600-1300_sqft/APARTMENT,APARTMENT_COMMUNITY,APARTMENT%7CCONDO%7CTOWNHOUSE,CONDO,COOP,LOFT,SINGLE-FAMILY_HOME,TIC_type/date;d_sort/lg_dogs,sm_dogs_pets/14_zm/'
-trulia_ne_url = r'https://www.trulia.com/for_rent/Minneapolis,MN/44.9861,45.03361,-93.27425,-93.19396_xy/1p_beds/1p_baths/1000-1700_price/600-1300_sqft/APARTMENT,APARTMENT_COMMUNITY,APARTMENT%7CCONDO%7CTOWNHOUSE,CONDO,COOP,LOFT,SINGLE-FAMILY_HOME,TIC_type/date;d_sort/lg_dogs,sm_dogs_pets/14_zm/'
+# Known Issues
+# Occasional Trulia postings with houses for sale instead of rentals
+# ********************************************************************
 
-# Main
-
-listings = get_zillow(zillow_url) + \
-           get_craigslist(criagslist_url) + \
-           get_apartments(apartments_url) + \
-           get_trulia(trulia_ne_url) + \
-           get_trulia(trulia_uptown_url)
+listings = []
+for url in urls:
+    site = [*url][0]
+    path = url[site]
+    if site == 'apartments':
+        listings += get_apartments(path)
+    elif site == 'craigslist':
+        listings += get_craigslist(path)
+    elif site == 'trulia':
+        listings += get_trulia(path)
+    elif site == 'zillow':
+        listings += get_zillow(path)
 
 # read csv
-csv_path = r"C:\Users\lewi0\Desktop\Personal_Scripts\Housing_Search\seen_listings.csv"
-seen_listings_df = pd.read_csv(csv_path)
-
-# set datetime
-seen_listings_df['date'] = pd.to_datetime(seen_listings_df['date'])
+csv_path = os.getcwd() + r"\seen_listings.csv"
+seen_listings_df = pd.read_csv(csv_path, parse_dates=['date'], infer_datetime_format=True)
 
 # get listings we haven't seen before
 new_listings = [url for url in listings if url not in seen_listings_df['url'].values]
 
-# send text for each new listing
-if len(new_listings) > 0:
-    # Open connection
-    smtp_server = "smtp.gmail.com"
-    port = 587  # For starttls
-
-    # Create a secure SSL context
-    context = ssl.create_default_context()
-
-    # Try to log in to server and send email
-    try:
-        server = smtplib.SMTP(smtp_server, port)
-        server.ehlo()  # Can be omitted
-        server.starttls(context=context)  # Secure the connection
-        server.ehlo()  # Can be omitted
-        server.login(sender_email, password)
-
-        for url in new_listings:
-            message = f"""
-            New Listing:
-            {url}"""
-            server.sendmail(sender_email, receiver_email, message)
-
-    except Exception as e:
-        # Print any error messages to stdout
-        print(e)
-    finally:
-        server.quit()
+# Notify user
+support.send_listing_sms(listings)
 
 # add new listings to df
 for url in new_listings:

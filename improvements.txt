@@ -1,3 +1,1 @@
 Find way to trigger craigslist captcha so we can properly search for it?
-
-Split URLS out into separate file as dictionary with keys as the site name, and values as lists of urls
